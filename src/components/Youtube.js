@@ -29,7 +29,7 @@ export default class Youtube extends Component {
                             }}
                             /> 
                         </h2>
-                    <p> Video editting has been a very recent interest of mine. I've kinda been stalling on anoither video production so hopefully I'll get that done once I settle all my exchange stuff! </p>
+                    <p> Video editting has been a very recent interest of mine. I've kinda been stalling on another video production so hopefully I'll get that done once I settle all my exchange stuff! </p>
                 </div>
             </div>
          </div>
