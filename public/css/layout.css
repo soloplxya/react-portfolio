@@ -230,6 +230,62 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+/* ------------------------------------------------------------------ */
+/* c. Music Section
+/* ------------------------------------------------------------------ */
+#my_music {
+   background: #E49273; 
+   padding-top: 100px; 
+   padding-bottom: 100px; 
+}
+
+#my_music p {
+   line-height: 30px;
+   color: #ffe5d9;
+   font-size:20px;
+}
+
+#my_music h2 {
+   font: 30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+#my_music .container {
+   display: flex; 
+   flex-direction: row;
+   column-gap: 30px;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. Youtube Section
+/* ------------------------------------------------------------------ */
+#youtube {
+   background: #6d3b47; 
+   padding-top: 100px; 
+   padding-bottom: 100px; 
+}
+
+#youtube p {
+   line-height: 30px;
+   color: #ffe5d9;
+   font-size:20px;
+}
+
+#youtube h2 {
+   font: 30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+#youtube .container {
+   display: flex; 
+   flex-direction: row;
+   column-gap: 30px;
+}
+
+
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -345,6 +401,33 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
+
+.reactjs {
+   width: 70%;
+   -moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+
+.tensorflow {
+   width: 60%;
+   -moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+
+.java {
+   width: 65%;
+   -moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+
+.python {
+   width: 80%;
+   -moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+
+
+
 .html5 {
   	width: 80%;
   	-moz-animation: html5 2s ease;
@@ -380,6 +463,11 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+
+@-moz-keyframes java {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
