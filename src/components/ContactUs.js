@@ -1,15 +1,31 @@
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
+import { send } from 'emailjs-com';
+
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
     const onSubmit = (e) => {
       e.preventDefault()
+      console.log("here");
       const { name, email, message } = e.target.elements
       let conFom = {
-        name: name.value,
+        to_name: "Shaine",
+        from_name: name.value,
         email: email.value,
         message: message.value,
       }
+
+      send(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        conFom,
+        process.env.REACT_APP_PUBLIC_KEY,
+      ).then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      })
+      .catch((err) => {
+        console.log('FAILED...', err);
+      });
     }
 
 
@@ -39,7 +55,7 @@ export default class ContactUs extends Component {
                   </label>
                   <textarea className="form-control" id="message" required />
                 </div>
-                <button className="button submit" type="submit"> Submit </button>
+                <button className="button submit" type="submit" > Submit </button>
               </form>
             </div>
           </div>

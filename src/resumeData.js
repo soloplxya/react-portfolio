@@ -17,9 +17,9 @@ let resumeData = {
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "name":"youtube",
+          "url":"https://www.youtube.com/@shainegoh5555",
+          "className":"fa fa-youtube"
         }
       ],
     "aboutme":"I am currently a penultimate Computer Science student studying at the National University of Singapore. I enjoy learning new languages and discovering underappreciated music on Spotify. I also enjoy experimenting and trying out new technologies during my free time! I will be embarking on my exchange semester at the University of Virginia soon and I am looking forward to it! In the upcoming few semesters, I hope to be able to gain more exposure with data science and machine learning competitions.",
