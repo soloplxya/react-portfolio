@@ -251,12 +251,20 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 10px;
 }
 
+
 #my_music .container {
    display: flex; 
-   flex-direction: row;
-   column-gap: 30px;
+   flex-direction: column;
+   row-gap: 30px;
 }
 
+@media screen and (min-width: 767px) {
+   #my_music .container {
+      display: flex; 
+      flex-direction: row;
+      column-gap: 30px;
+   }
+}
 /* ------------------------------------------------------------------ */
 /* c. Youtube Section
 /* ------------------------------------------------------------------ */
@@ -284,6 +292,13 @@ ul#nav li.current a { color: #F06000; }
    column-gap: 30px;
 }
 
+@media screen and (max-width: 767px) {
+   #youtube .container {
+      display: flex; 
+      flex-direction: column;
+      row-gap: 30px;
+   }
+}
 
 
 

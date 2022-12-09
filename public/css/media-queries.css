@@ -222,6 +222,12 @@
       padding: 15px 20px;
    }
    #about .main-col { padding-right: 30px; }
+   
+   
+   /* Music Section
+   -------------------------------------------------------------------- */
+   #about .playlists { display: none; }
+   #my_music .main-col { padding-right: 30px; }
 
 
    /* Resume Section
