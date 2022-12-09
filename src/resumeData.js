@@ -1,19 +1,19 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
+    "name": "Shaine",
+    "role": "Web Software Developer and a data science enthusiast",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
     "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/shaine-goh-3b0b12b3/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/soloplxya",
           "className":"fa fa-github"
         },
         {
@@ -22,42 +22,37 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
+    "aboutme":"I am currently a penultimate Computer Science student studying at the National University of Singapore. I enjoy learning new languages and discovering underappreciated music on Spotify. I also enjoy experimenting and trying out new technologies during my free time! I will be embarking on my exchange semester at the University of Virginia soon and I am looking forward to it! In the upcoming few semesters, I hope to be able to gain more exposure with data science and machine learning competitions.",
+    "address":"Singapore",
     "website":"https://rbhatia46.github.io",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
+        "UniversityName":"National University of Singapore",
+        "specialization":"Computer Science",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
+        "UniversityName":"University of Virginia",
+        "specialization":"Engineering Exchange Student",
         "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "YearOfPassing":"2023",
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Rida.ai",
+        "specialization":"Web Software Engineering Intern",
+        "MonthOfLeaving":"Aug",
+        "YearOfLeaving":"2022",
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Inland Revenue Authority of Singapore",
+        "specialization":"Web Software Engineering Intern",
+        "MonthOfLeaving":"Aug",
+        "YearOfLeaving":"2021",
       }
     ],
-    "skillsDescription":"Your skills here",
     "skills":[
       {
         "skillname":"HTML5"
