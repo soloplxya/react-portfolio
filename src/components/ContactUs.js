@@ -6,7 +6,6 @@ export default class ContactUs extends Component {
     let resumeData = this.props.resumeData;
     const onSubmit = (e) => {
       e.preventDefault()
-      console.log("here");
       const { name, email, message } = e.target.elements
       let conFom = {
         to_name: "Shaine",

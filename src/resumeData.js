@@ -22,9 +22,11 @@ let resumeData = {
           "className":"fa fa-youtube"
         }
       ],
-    "aboutme":"I am currently a penultimate Computer Science student studying at the National University of Singapore. I enjoy learning new languages and discovering underappreciated music on Spotify. I also enjoy experimenting and trying out new technologies during my free time! I will be embarking on my exchange semester at the University of Virginia soon and I am looking forward to it! In the upcoming few semesters, I hope to be able to gain more exposure with data science and machine learning competitions.",
+    "aboutme":`Hi! I am Shaine, a fresh grad from NUS and a software engineer at IRAS. I started programming about 4 years ago, starting out with learning basic web development skills such as HTML, CSS and Javascript. It still amazes me till these day how far we have come
+    with technology and I enjoy delving into new frameworks and exploring new forms of web development during my free time. Since then, I have interned at various companies, specializing as a full stack developer and participating in the development and research of new features
+    to be implemented in their websites.`,
     "address":"Singapore",
-    "website":"https://rbhatia46.github.io",
+    "website":"https://soloplxya.github.io",
     "education":[
       {
         "UniversityName":"National University of Singapore",
@@ -41,14 +43,42 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"Inland Revenue Authority of Singapore",
+        "specialization":"Software Engineer",
+        "MonthOfJoining":"Aug", 
+        "YearOfJoining":"2023",
+        "MonthOfLeaving":"Dec",
+        "YearOfLeaving":"2023",
+      },
+      {
+        "CompanyName":"OneLogis",
+        "specialization":"Full Stack Developer Intern",
+        "MonthOfJoining":"May", 
+        "YearOfJoining":"2023",
+        "MonthOfLeaving":"Dec",
+        "YearOfLeaving":"2023",
+      },
+      {
+        "CompanyName":"Rebee",
+        "specialization":"Android Development Intern",
+        "MonthOfJoining":"May", 
+        "YearOfJoining":"2022",
+        "MonthOfLeaving":"Aug",
+        "YearOfLeaving":"2023",
+      },
+      {
         "CompanyName":"Rida.ai",
         "specialization":"Web Software Engineering Intern",
+        "MonthOfJoining":"May", 
+        "YearOfJoining":"2022",
         "MonthOfLeaving":"Aug",
         "YearOfLeaving":"2022",
       },
       {
         "CompanyName":"Inland Revenue Authority of Singapore",
         "specialization":"Web Software Engineering Intern",
+        "MonthOfJoining":"May", 
+        "YearOfJoining":"2021",
         "MonthOfLeaving":"Aug",
         "YearOfLeaving":"2021",
       }

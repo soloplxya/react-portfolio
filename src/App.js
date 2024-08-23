@@ -3,8 +3,6 @@ import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
 import MyMusic from './components/MyMusic';
-import Portfolio from './components/Portfolio';
-import Testimonials from  './components/Testimonials';
 import Youtube from './components/Youtube';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
@@ -18,8 +16,6 @@ class App extends Component {
         <MyMusic resumeData={resumeData}/>
         <Youtube resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
-        {/* <Portfolio resumeData={resumeData}/>
-        <Testimonials resumeData={resumeData}/> */}
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>

@@ -6,10 +6,10 @@ export default class About extends Component {
     return (
       <section id="about">
          <div className="row">
-            <div className="three columns">
+            <div className="four columns">
                <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
             </div>
-            <div className="nine columns main-col">
+            <div className="eight columns main-col">
                <h2 className='responsive-headline'>
                   <TypewriterComponent
                       options={{

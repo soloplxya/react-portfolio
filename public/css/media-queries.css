@@ -49,13 +49,25 @@
 
    /* About Section
    ------------------------------------------------------------------- */
-   #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
-   }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
+
+
+   #about .playlists { display: none; }
+   #my_music .spotify-containers {
+      flex-direction: column; /* Stack columns vertically */
+   }
+
+   #my_music .container-one, .container-two {
+      width: 100%; /* Ensure each container takes full width */
+      margin-left: 0; /* Remove any left margin */
+      margin-right: 0;
+      margin-top: 10px; /* Optional: add space between stacked iframes */
+   }
+
+   #my_music .container-two {
+      margin-top: 20px; /* Optional: add more space above the second iframe */
+   }
 
    /* Resume Section
    ------------------------------------------------------------------- */
@@ -227,8 +239,19 @@
    /* Music Section
    -------------------------------------------------------------------- */
    #about .playlists { display: none; }
-   #my_music .main-col { padding-right: 30px; }
+   #my_music .spotify-containers {
+      flex-direction: column; /* Stack columns vertically */
+  }
 
+  #my_music .container-one, .container-two {
+      width: 100%; /* Ensure each container takes full width */
+      margin-left: 0; /* Remove any left margin */
+      margin-top: 10px; /* Optional: add space between stacked iframes */
+  }
+
+  #my_music .container-two {
+      margin-top: 20px; /* Optional: add more space above the second iframe */
+  }
 
    /* Resume Section
    --------------------------------------------------------------------- */
