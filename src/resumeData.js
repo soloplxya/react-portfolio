@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-youtube"
         }
       ],
-    "aboutme":`Hi! I am Shaine, a fresh grad from NUS and a software engineer at IRAS. I started programming about 4 years ago, starting out with learning basic web development skills such as HTML, CSS and Javascript. It still amazes me till these day how far we have come
+    "aboutme":`Hi! I am Shaine, a fresh grad from NUS and a software engineer at IRAS. I started programming about 4 years ago, starting out with learning basic web development skills such as HTML, CSS and Javascript. It still amazes me till this day how far we have come
     with technology and I enjoy delving into new frameworks and exploring new forms of web development during my free time. Since then, I have interned at various companies, specializing as a full stack developer and participating in the development and research of new features
     to be implemented in their websites.`,
     "address":"Singapore",
@@ -46,9 +46,8 @@ let resumeData = {
         "CompanyName":"Inland Revenue Authority of Singapore",
         "specialization":"Software Engineer",
         "MonthOfJoining":"Aug", 
-        "YearOfJoining":"2023",
-        "MonthOfLeaving":"Dec",
-        "YearOfLeaving":"2023",
+        "YearOfJoining":"2024",
+        "MonthOfLeaving":"Present",
       },
       {
         "CompanyName":"OneLogis",
